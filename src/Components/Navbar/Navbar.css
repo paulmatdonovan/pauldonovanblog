@@ -1,0 +1,15 @@
+.navbar{
+    background:  #cfe0e8;
+    font-family: "Poppins";
+
+}
+
+.nav-logo h1{
+font-weight: 600;
+font-size: 3em;
+color:#87bdd8;
+}
+.nav-menu{
+    color:#87bdd8;
+
+}
