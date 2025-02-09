@@ -1,13 +1,16 @@
-
+import './Footer.css'
 import React from 'react'
 
 const Footer = () => {
     return (
         <div className="footer">   
-        <div className="left-section">
-            <div className="email">
-            <p > email           </p>
-            <h3>paul.m.donovan@outlook.com</h3>
+        <div className="footer-content">
+            <div className="footer-section">
+                <h4>Follow Me</h4>
+                <div className="social-links">
+                    <a href="https://x.com/PaulDonovanWeb" target="_blank" rel="noopener noreferrer">X</a>
+                    <a href="https://www.linkedin.com/in/paul-donovan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
                 </div>
                 <div className="phone">
                     <p>phone</p>
