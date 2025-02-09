@@ -1,15 +1,51 @@
 .navbar{
-    background:  #cfe0e8;
+    background:  #daebe8;
     font-family: "Poppins";
-
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    /* width: 100vw; */
 }
 
 .nav-logo h1{
 font-weight: 600;
+padding-left: 1em;
 font-size: 3em;
 color:#87bdd8;
 }
 .nav-menu{
     color:#87bdd8;
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    padding-right: 0.7em;
+}
+ 
+
+
+.nav-menu li {
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
 
 }
+.nav ul li:visited {
+    text-decoration: none;
+}
+.nav-menu a{
+    text-decoration: none;
+    color:#87bdd8;
+    font-size: 1.2em;
+}
+a:hover {
+    background-color: #b7d7e8;
+    padding: 9px 9px;
+    border-radius: 8px;
+}
+
+
+
+

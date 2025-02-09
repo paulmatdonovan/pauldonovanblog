@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Products from './Pages/Products/Products.jsx'
 import Contact from './Pages/Contact/Contact.jsx'
 import { useEffect, useState } from 'react';
+import Footer from './Components/Footer/Footer.jsx';
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
 
 
       </Routes>
+      <Footer/>
       </BrowserRouter>
 
     </div>
