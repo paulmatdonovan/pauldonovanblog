@@ -10,8 +10,8 @@ const Article = ({posts}) => {
       return (
 
           <div key={id} className="article">
-              <article>
-                  <h3>{title}</h3>
+              <article className='article-section'>
+                  <h3 className='article-header'>{title}</h3>
                   <small>{date}</small>
                   <p>{preview}</p>
                   <p>
