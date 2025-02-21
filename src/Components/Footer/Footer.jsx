@@ -12,11 +12,27 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/paul-donovan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </div>
                 </div>
-                <div className="phone">
-                    <p>phone</p>
-                    <h3>0431 212 079</h3>
-                </div>
-                <h6 className='attribution'>website created by Elevate Web Solutions</h6>
+              <div className="footer-section">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/articles">Articles</a></li>
+              </ul>
+              </div>
+              <div className="footer-section">
+              <h4>Subscribe</h4>
+              <form className="newsletter-form">
+              <input type="email" placeholder="Still under construction..." />
+              <button type="submit">Subscribe</button>
+              </form>
+              </div>
+
+        </div>
+        <div className="footer-bottom">
+        <p>&copy; {new Date().getFullYear()} Paul Donovan. All rights reserved.</p>
+                <p className="attribution">Website created by Elevate Web Solutions</p>
+
         </div>
          </div>
 

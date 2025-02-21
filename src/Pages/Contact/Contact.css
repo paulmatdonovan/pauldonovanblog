@@ -1,0 +1,40 @@
+.contact-form{
+    display: flex;
+    flex-direction: row;
+}
+.form-page-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 1em;
+}
+.form-page-img img{
+ max-width: 65%;
+}
+.form h4{
+    padding: 15px 130px;
+    font-size: 1.4em;
+    color: #667292;
+    font-weight: 500;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 18px;
+    
+}
+.form-input{
+display: flex;
+line-height: 1.8em;
+flex-direction: column;
+gap: 20px;
+padding: 15px 55px;
+width: 400px;
+margin: 0 auto;
+height: auto;
+}
+.form-input textarea{
+height: 2.5em;
+
+}

@@ -12,7 +12,8 @@
 }
 .article-left{
 flex: 2;
-padding: 1.5em;
+padding: 1.5em 0.5em;
+margin: 1em 1.4em;
 }
 
 .article-title{
@@ -27,10 +28,13 @@ padding: 1.5em;
     text-align: center;
 }
 .article-img{
-    padding: 2.5em;
-    width: 50%;
-    height: auto;
-    margin-left: 3em;
     flex:1;
+}
+.article-img img{
+    padding: 1em 1em;
+    width: 70%;
+    height: auto;
+    margin-left: 2em 1em;
+    
 }
     

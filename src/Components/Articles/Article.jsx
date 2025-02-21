@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import './Article.css'
 
 const Article = ({posts}) => {
  
     const articleArray = posts.map(post => {
 
-      const { id, title, date = "August 15, 2024", preview, content } = post;
+      const { id, title, date = "August 15, 2024", preview } = post;
 
       return (
 

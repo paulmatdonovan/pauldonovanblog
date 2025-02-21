@@ -4,7 +4,7 @@ import image5 from './blogImage (5).png'
 
 
 const articles = [
-    { id: 1, image:image3, title: "Thoughts on living in Thailand", preview: "Living in the land of smiles", content: `I had rarely travelled before I decided to hop on a plane and live in Thailand for the rest of my life.
+    { id: 1, date: "Feb 20, 2025", image:image3, title: "Thoughts on living in Thailand", preview: "Living in the land of smiles", content: `I had rarely travelled before I decided to hop on a plane and live in Thailand for the rest of my life.
 I ended up working and living in Thailand for only one year. Most of my friends said it would last only a few months, so I'm glad I could at least stick it out that long. 
 I've come to realise many people have decided, like me, to relocate to Thailand from the West.
 There are many good and bad things about living in another country. I have been back in Australia for a while now and I suppose it is a good time to reflect on the experience.
@@ -27,7 +27,7 @@ At the time, I wondered if Thai industrialization was influenced by the Korean e
 
 For Westerners, it wasn't so bad, but without a second source of income, you are always worried about how much things cost, so you can't enjoy yourself as much as you might like. 
 ` },
-    { id: 2, image:image5, title: "Escaping Australia", preview: "Moving to another country is fun, but…", content:`
+    { id: 2, image:image5, date: "Feb 20, 2025", title: "Escaping Australia", preview: "Moving to another country is fun, but…", content:`
 I felt the pressure of death all around me. It was coursing through my veins. It was traveling up from my arm and through my chest, as though my own blood was attacking me.
 I finally fell asleep. Meditating while listening to the audiobook of one of Eckhart Tolle’s retreats had saved me yet again.
 At the time, I was living in Nyah, surely one of Australia’s smallest and most remote towns. 
@@ -58,7 +58,7 @@ I remember the strangest feelings the day I took the vaccine. I remember lying i
 
 .
 ` },
-    { id: 3, title: "Money or Your Life", preview:"Consciousness with money will save you many headaches", image: image1, content: `It’s fair to say I’ve had a turbulent time with money. I suppose most people have. Everything to do with money is hard. Even now, I find there are weeks where I spend too much or wish some of the bills would go away or I could magically earn more.
+    { id: 3, date: "Feb 20, 2025", title: "Money or Your Life", preview:"Consciousness with money will save you many headaches", image: image1, content: `It’s fair to say I’ve had a turbulent time with money. I suppose most people have. Everything to do with money is hard. Even now, I find there are weeks where I spend too much or wish some of the bills would go away or I could magically earn more.
         However, there was a time when I thought things might just work out when I finally felt I was on top of my relationship with money. I felt I could become wealthy, or I could at least have more than enough money to do what I wanted.
 So, a couple of years ago, I went through a phase of reading books on personal development and wealth building. I’m not sure why I was reading them and perhaps in hindsight it was a bad idea, or it wasn’t a good thing.  After all, I had undergone a divorce at the time, and it seemed it was too late in life for me to turn things around or in any way shape or form live a successful life but at the time I really started to believe I could do it.
 

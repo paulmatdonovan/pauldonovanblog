@@ -21,8 +21,7 @@ const ArticleFull = ({posts}) => {
       </div>
 
       <div className='article-content'>
-      
-      <div className='article-left'>
+          <div className='article-left'>
       <p>{post.content}</p>
       </div>
       <div className='article-img'>
