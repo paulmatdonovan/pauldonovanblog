@@ -35,7 +35,6 @@ align-items: center;
 flex-direction: column;
 justify-content: start;
 padding: 5px 25px;
-
 }
 .products{
     padding: 1em 3em;
@@ -43,10 +42,24 @@ padding: 5px 25px;
 }
 
 .product-list img{
-
 width: 40%;
 max-width: 7em;
+max-width: 100%;
 padding: 10px 10px;
 height: auto;
-
 }
+
+.product-list a {
+    display: block;
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+    cursor: pointer; /* Change cursor to pointer */
+    text-align: center;
+    flex-shrink: 0;
+    padding:0;
+    margin:0;
+  }
+    .product-list a:hover {
+    opacity: 0.8; /* Add hover effect */
+  }
+  

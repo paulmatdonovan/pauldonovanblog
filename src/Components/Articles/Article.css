@@ -1,10 +1,10 @@
 .article{
     font-family: "Poppins";
-    padding: 10px 30px;
+    padding: 5px 15px;
 }
 .article-section{
     display: flex;
-    gap: 10px;
+    line-height: normal;
 }
 
 .article-section h3{

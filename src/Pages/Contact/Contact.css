@@ -24,17 +24,34 @@
     margin: 18px;
     
 }
+.form-btn{
+    background: rgb(19, 19, 194);
+    color: white;
+    border-radius: 8px;
+    padding: .3em;
+    width: 45%;
+}
 .form-input{
 display: flex;
 line-height: 1.8em;
 flex-direction: column;
 gap: 20px;
 padding: 15px 55px;
-width: 400px;
+width: 70%;
 margin: 0 auto;
 height: auto;
 }
-.form-input textarea{
-height: 2.5em;
+input{
+    border: solid 2px rgb(80, 78, 78);
+    height: 2em;
+    width: 50%;
+
+}
+textarea{
+height: 3.3em;
+border: solid 2px rgb(80, 78, 78);
+width: 60%;
+
+
 
 }
