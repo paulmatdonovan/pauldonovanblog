@@ -3,17 +3,18 @@
     display: flex;
     gap: 1em;
     background: #daebe8;
+    padding: .5em .5em;
 
 }
 .home-left h3{
     font-weight: 400;
-    line-height: 1.4em;
+    line-height: 1.3rem;
     color:#667292;
 }
 
 .home-left h1{
     font-weight: 600;
-    line-height: 1.8em;
+    line-height: 1.8rem;
     color:#667292;
 }
 
@@ -35,5 +36,19 @@
     padding: 2em;
     width: 65%;
     height: auto;
-margin-left: 3em;
+    margin-left: 3em;
+}
+
+@media (max-width: 768px) {
+    .home {
+      display: block; /* Show hamburger icon on small screens */
+      /* padding: .5em .5em; */
+    }
+    .home-right img{
+        padding: .5em .5em;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
 }

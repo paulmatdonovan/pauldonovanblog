@@ -21,11 +21,11 @@ const Navbar = () => {
 <div className="line"></div>
 
       </div>
-      <ul className='nav-menu'>
-<li><NavLink className="navbar-menu" to="/">Home</NavLink></li>
-<li><NavLink className="navbar-menu" to="/articles">Articles</NavLink></li>
-<li><NavLink className="navbar-menu" to="/products">Products</NavLink></li>
-<li><NavLink className="navbar-menu" to="/contact">Contact</NavLink></li>
+      <ul className={`nav-menu ${isOpen ? 'active' : ''}`}>
+<li><NavLink className="navbar-menu" onClick={toggleMenu} to="/">Home</NavLink></li>
+<li><NavLink className="navbar-menu" to="/articles" onClick={toggleMenu}>Articles</NavLink></li>
+<li><NavLink className="navbar-menu" to="/products" onClick={toggleMenu}>Products</NavLink></li>
+<li><NavLink className="navbar-menu" to="/contact" onClick={toggleMenu}>Contact</NavLink></li>
       </ul>
     </div>
   )

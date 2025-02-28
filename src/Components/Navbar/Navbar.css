@@ -1,19 +1,20 @@
 .navbar{
-    background:   #f1e3dd;
+    background:#f1e3dd;
     font-family: "Poppins";
     display: flex;
     align-items: center;
     gap: 10px;
     justify-content: space-between;
     max-height: 7em;
+    padding: 0 20px;
     /* width: 100vw; */
 }
 
 .nav-logo h1{
-font-weight: 600;
-padding-left: 1em;
-font-size: 3em;
-color:#87bdd8;
+    font-weight: 600;
+    padding-left: 1em;
+    font-size: 2.5em;
+    color:#87bdd8;
 }
 .nav-menu{
     color:#87bdd8;
@@ -23,11 +24,74 @@ color:#87bdd8;
     gap: 25px;
     justify-content: center;
     padding-right: 1.2em;
+    list-style: none;
+    margin: 0;
 }
- 
+.nav-menu a{
+    text-decoration: none;
+    color:#87bdd8;
+    font-size: 1.2em;
+}
 
+/* more specific than a: hover */
+.nav-menu a:hover {
+    background-color: #b7d7e8;
+    padding: 9px 9px;
+    border-radius: 8px;
+  }
+/* Hamburger menu icon  */
+.hamburger {
+    display: none; /* Hide by default */
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+.hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: #87bdd8;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
 
-.nav-menu li {
+  /* Hamburger menu active state */
+  .hamburger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .hamburger.active .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+@media (max-width: 768px) {
+    .hamburger {
+      display: flex; /* Show hamburger icon on small screens */
+    }
+    .nav-menu {
+        position: absolute;
+        top: 7em; /* Adjust based on navbar height */
+        right: 0;
+        background-color: #f1e3dd;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 10px;
+        padding: 20px 0;
+        transform: translateX(100%); /* Hide off-screen by default */
+        transition: transform 0.3s ease-in-out;
+      }
+    
+      .nav-menu.active {
+        transform: translateX(0); /* Slide in when active */
+      }
+    }
+
+/* not needed? */
+
+/* .nav-menu li {
     list-style: none;
     cursor: pointer;
     text-decoration: none;
@@ -35,17 +99,11 @@ color:#87bdd8;
 }
 .nav ul li:visited {
     text-decoration: none;
-}
-.nav-menu a{
-    text-decoration: none;
-    color:#87bdd8;
-    font-size: 1.2em;
-}
-a:hover {
-    background-color: #b7d7e8;
-    padding: 9px 9px;
-    border-radius: 8px;
-}
+} */
+
+
+
+
 
 
 
