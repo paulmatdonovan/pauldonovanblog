@@ -29,8 +29,8 @@ For Westerners, it wasn't so bad, but without a second source of income, you are
 ` },
     { id: 2, image:image5, date: "Feb 20, 2025", title: "Escaping Australia", preview: "Moving to another country is fun, but…", content:`
 I felt the pressure of death all around me. It was coursing through my veins. It was traveling up from my arm and through my chest, as though my own blood was attacking me.
-I finally fell asleep. Meditating while listening to the audiobook of one of Eckhart Tolle’s retreats had saved me yet again.
-At the time, I was living in Nyah, surely one of Australia’s smallest and most remote towns. 
+I finally fell asleep. Meditating while listening to the audiobook of one of Eckhart Tolle's retreats had saved me yet again.
+At the time, I was living in Nyah, surely one of Australia's smallest and most remote towns. 
 
 I had bought a house, and I felt happier that year. Not happy but happier. I still felt stuck, I felt the limitations of life cramping in upon me. But that was not atypical for me. Even though I felt stuck that house brought me happiness. I loved living there and it gave me a sense of peace to return home each day. Despite working in a job I hated, there was something about that house that made me feel alive. It was a small weatherboard, but I suppose because I experienced so much in the year, I was there in that small house these memories will always stay with me and will be so treasured.
 What made that house special was that it represented the desire to succeed. It was in my small weatherboard house in Nyah that I raised pets for the first time. I had a mischievous cat, several chickens and a dog, which belonged to my housemate. I took on 3 jobs, including my main work and some tutoring done on the internet. I also invested in stocks and crypto and I set up an online business, selling items on Amazon and eBay. My finances were getting in order and I had two properties in my name with easily affordable mortgage payments. 
@@ -56,11 +56,11 @@ I was desperate to leave the country, so I decided to take the vaccine and go an
 I might die I thought, but I might also have some happiness before I die.
 I remember the strangest feelings the day I took the vaccine. I remember lying in bed tossing and turning. I had struggled for weeks with the idea of taking the COVID shot, considering it one of the most evil and insidious invasions over our personal lives in modern history. I found it difficult to fall asleep. Despite dosing myself with vitamin D and strong pain medication, the pain in my arm was significant and I could feel the pain stretch out across my chest working its way to my heart as though an octopus were reaching out its tentacles to grasp every part of my body and crush the life out of it, or as though a parasite were gradually colonizing every part of my flesh and absorbing it so as the grow by what it feeds upon.
 
-.
+
 ` },
-    { id: 3, date: "Feb 20, 2025", title: "Money or Your Life", preview:"Consciousness with money will save you many headaches", image: image1, content: `It’s fair to say I’ve had a turbulent time with money. I suppose most people have. Everything to do with money is hard. Even now, I find there are weeks where I spend too much or wish some of the bills would go away or I could magically earn more.
-        However, there was a time when I thought things might just work out when I finally felt I was on top of my relationship with money. I felt I could become wealthy, or I could at least have more than enough money to do what I wanted.
-So, a couple of years ago, I went through a phase of reading books on personal development and wealth building. I’m not sure why I was reading them and perhaps in hindsight it was a bad idea, or it wasn’t a good thing.  After all, I had undergone a divorce at the time, and it seemed it was too late in life for me to turn things around or in any way shape or form live a successful life but at the time I really started to believe I could do it.
+    { id: 3, date: "Feb 20, 2025", title: "Money or Your Life", preview:"Consciousness with money will save you many headaches", image: image1, content: `It's fair to say I've had a turbulent time with money. I suppose most people have. Everything to do with money is hard. Even now, I find there are weeks where I spend too much or wish some of the bills would go away or I could magically earn more.
+However, there was a time when I thought things might just work out when I finally felt I was on top of my relationship with money. I felt I could become wealthy, or I could at least have more than enough money to do what I wanted.
+So, a couple of years ago, I went through a phase of reading books on personal development and wealth building. I'm not sure why I was reading them and perhaps in hindsight it was a bad idea, or it wasn't a good thing.  After all, I had undergone a divorce at the time, and it seemed it was too late in life for me to turn things around or in any way shape or form live a successful life but at the time I really started to believe I could do it.
 
 Being conscious of money
  

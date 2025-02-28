@@ -1,6 +1,6 @@
 .article-section{
     display: flex;
-    padding: 1em 1em;
+    padding: 1em .5em;
     flex-direction: column;
     gap: 2em;
     font-family: "Poppins";
@@ -11,9 +11,11 @@
     display: flex;
 }
 .article-left{
-flex: 2;
-padding: 1.5em 0.5em;
-margin: 1em 1.4em;
+    flex: 2;
+    padding: 1.5em 0.5em;
+    margin: 1em 1.4em;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .article-title{
@@ -28,13 +30,24 @@ margin: 1em 1.4em;
     text-align: center;
 }
 .article-img{
-    flex:1;
+    padding: 2em;
+    flex: 1;
 }
 .article-img img{
-    padding: 1em 1em;
-    width: 70%;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    width: 75%;
     height: auto;
-    margin-left: 2em 1em;
+    margin: 2em 1em;
     
+}
+@media only screen and (max-width: 767px) {
+    .article-section section{
+        display: block;
+    }
+    .article-content{
+        display: block;
+    }
 }
     

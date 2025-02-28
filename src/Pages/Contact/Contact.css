@@ -9,13 +9,13 @@
     padding: 1em 1em;
 }
 .form-page-img img{
- max-width: 65%;
+    max-width: 65%;
 }
 .form h4{
-    padding: 15px 130px;
+    padding: 1em 2em;
     font-size: 1.4em;
     color: #667292;
-    font-weight: 500;
+    font-weight: 400;
 }
 .form{
     display: flex;
@@ -29,17 +29,18 @@
     color: white;
     border-radius: 8px;
     padding: .3em;
-    width: 45%;
+    width: 7em;
+    height: 2.5em;
 }
 .form-input{
-display: flex;
-line-height: 1.8em;
-flex-direction: column;
-gap: 20px;
-padding: 15px 55px;
-width: 70%;
-margin: 0 auto;
-height: auto;
+    display: flex;
+    line-height: 1.8em;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 55px;
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
 }
 input{
     border: solid 2px rgb(80, 78, 78);
@@ -48,10 +49,21 @@ input{
 
 }
 textarea{
-height: 3.3em;
-border: solid 2px rgb(80, 78, 78);
-width: 60%;
+    height: 3.3em;
+    border: solid 2px rgb(80, 78, 78);
+    width: 60%;
+}
 
-
-
+@media only screen and (max-width: 767px) {
+    .contact-form{
+        display: block;
+    }
+    .form{
+        display: block;
+    }
+    .form h4{
+        
+        font-weight: 400;
+    }
+   
 }

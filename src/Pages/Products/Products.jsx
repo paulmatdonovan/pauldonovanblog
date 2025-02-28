@@ -2,7 +2,7 @@ import React from 'react'
 import './Products.css'
 import book1 from '../../Assets/book (1).jpg'
 import book2 from '../../Assets/book (1).png'
-import book3 from '../../Assets/book (2).jpg'
+import book3 from '../../Assets/New Woprld Order.jpg'
 
 
 const Products = () => {
@@ -38,7 +38,6 @@ const Products = () => {
           </a>
           <p>During the brutal covid lockdowns, one man seeks peace and freedom from the madness</p>
           </div>
-
         </div>
     </div>
   )

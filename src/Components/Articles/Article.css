@@ -1,12 +1,20 @@
 .article{
     font-family: "Poppins";
-    padding: 5px 15px;
 }
 .article-section{
     display: flex;
     line-height: normal;
+    padding: .5em 1em;
+    margin:.5em 1em; 
 }
 
 .article-section h3{
     color: #667292;
+}
+
+@media only screen and (max-width: 767px) {
+    /* Your CSS rules for mobile phones go here */
+    .article{
+        display: block;
+    }
 }
